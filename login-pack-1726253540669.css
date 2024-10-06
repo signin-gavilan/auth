@@ -1,0 +1,1669 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i");
+.edlio .content uniform-notification,
+.edlio .content .uniform-notification,
+.edlio .content edlio-notification,
+.edlio .content .edlio-notification, .edlio .content uniform-overlay,
+.edlio .content edlio-overlay, .edlio .content uniform-overlay uniform-modal,
+.edlio .content uniform-overlay edlio-modal,
+.edlio .content edlio-overlay uniform-modal,
+.edlio .content edlio-overlay edlio-modal, .edlio .content uniform-overlay uniform-modal page.current header,
+.edlio .content uniform-overlay edlio-modal page.current header,
+.edlio .content edlio-overlay uniform-modal page.current header,
+.edlio .content edlio-overlay edlio-modal page.current header, .edlio .content uniform-overlay uniform-modal page.current footer,
+.edlio .content uniform-overlay edlio-modal page.current footer,
+.edlio .content edlio-overlay uniform-modal page.current footer,
+.edlio .content edlio-overlay edlio-modal page.current footer, .edlio .content .icon.input {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.edlio .content uniform-notification,
+.edlio .content .uniform-notification,
+.edlio .content edlio-notification,
+.edlio .content .edlio-notification, .edlio .content uniform-overlay,
+.edlio .content edlio-overlay, .edlio .content uniform-overlay uniform-modal,
+.edlio .content uniform-overlay edlio-modal,
+.edlio .content edlio-overlay uniform-modal,
+.edlio .content edlio-overlay edlio-modal, .edlio .content uniform-overlay uniform-modal page.current header,
+.edlio .content uniform-overlay edlio-modal page.current header,
+.edlio .content edlio-overlay uniform-modal page.current header,
+.edlio .content edlio-overlay edlio-modal page.current header, .edlio .content uniform-overlay uniform-modal page.current footer,
+.edlio .content uniform-overlay edlio-modal page.current footer,
+.edlio .content edlio-overlay uniform-modal page.current footer,
+.edlio .content edlio-overlay edlio-modal page.current footer, .edlio .content .icon.input {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.edlio .content uniform-notification,
+.edlio .content .uniform-notification,
+.edlio .content edlio-notification,
+.edlio .content .edlio-notification, .edlio .content uniform-overlay,
+.edlio .content edlio-overlay, .edlio .content uniform-overlay uniform-modal,
+.edlio .content uniform-overlay edlio-modal,
+.edlio .content edlio-overlay uniform-modal,
+.edlio .content edlio-overlay edlio-modal, .edlio .content uniform-overlay uniform-modal page.current header,
+.edlio .content uniform-overlay edlio-modal page.current header,
+.edlio .content edlio-overlay uniform-modal page.current header,
+.edlio .content edlio-overlay edlio-modal page.current header, .edlio .content uniform-overlay uniform-modal page.current footer,
+.edlio .content uniform-overlay edlio-modal page.current footer,
+.edlio .content edlio-overlay uniform-modal page.current footer,
+.edlio .content edlio-overlay edlio-modal page.current footer, .edlio .content .icon.input {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.edlio .content a.disabled, .edlio .content .button.disabled {
+  pointer-events: none; }
+
+.edlio .content .button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+.edlio .content a.disabled {
+  color: #aaabad; }
+
+body {
+  margin: 0; }
+
+.edlio .content {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden; }
+  .edlio .content .button {
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: #1d9cd3;
+    box-shadow: none;
+    border-radius: 0.24063em;
+    border: none; }
+    .edlio .content .button:link {
+      color: white; }
+    .edlio .content .button:visited {
+      background: #1d9cd3;
+      color: white; }
+    .edlio .content .button:hover {
+      background: #1a8bbd;
+      text-decoration: underline; }
+    .edlio .content .button.icon:active:not(.secondary), .edlio .content .button:active {
+      background: #177ba6;
+      color: white; }
+    .edlio .content .button:focus {
+      text-decoration: underline;
+      background: #1a8bbd; }
+    .edlio .content .button.disabled {
+      background: #aadaef;
+      box-shadow: none;
+      color: white; }
+    .edlio .content .button.secondary {
+      background: white;
+      color: #444444;
+      box-shadow: inset 0 0 0 1px #cccccc; }
+      .edlio .content .button.secondary:link {
+        color: #444444; }
+      .edlio .content .button.secondary:visited {
+        background: white;
+        color: #444444; }
+      .edlio .content .button.secondary:hover, .edlio .content .button.secondary:focus {
+        background: #f4f4f4; }
+      .edlio .content .button.secondary:active {
+        background: #e7e7e7;
+        color: #444444; }
+      .edlio .content .button.secondary.selected {
+        background: #ededed; }
+      .edlio .content .button.secondary.disabled {
+        box-shadow: inset 0 0 0 1px #ebebeb;
+        color: #aaaaaa; }
+        .edlio .content .button.secondary.disabled.icon svg {
+          fill: #aaaaaa; }
+      .edlio .content .button.secondary.bare:hover {
+        background: #f4f4f4;
+        box-shadow: inset 0 0 0 1px #cccccc;
+        color: #444444; }
+      .edlio .content .button.secondary.bare:active {
+        background: #e7e7e7;
+        color: #444444; }
+      .edlio .content .button.secondary.icon svg {
+        fill: #767676; }
+      .edlio .content .button.secondary.icon:hover svg {
+        fill: #1d9ed5; }
+    .edlio .content .button.bare {
+      margin-right: 0;
+      box-shadow: none;
+      background: transparent;
+      color: #444444; }
+      .edlio .content .button.bare:hover {
+        background: #1a8bbd; }
+        .edlio .content .button.bare:hover:not(.icon) {
+          background: transparent;
+          color: #444444;
+          box-shadow: none;
+          text-decoration: underline; }
+      .edlio .content .button.bare:active:not(.icon) {
+        background: transparent;
+        color: #444444;
+        text-decoration: none; }
+    .edlio .content .button.icon svg {
+      position: relative;
+      pointer-events: none;
+      vertical-align: middle;
+      fill: #444444;
+      fill: white; }
+    .edlio .content .button.icon.labeled svg {
+      margin-right: .382em; }
+    .edlio .content .button.icon.circular {
+      border-radius: 50%; }
+    .edlio .content .button.icon.bare svg {
+      fill: #767676; }
+    .edlio .content .button.icon.bare:hover svg {
+      fill: white; }
+    .edlio .content .button.icon.bare.secondary:hover svg {
+      fill: #1d9ed5; }
+  .edlio .content svg.icon {
+    position: relative;
+    pointer-events: none;
+    vertical-align: middle;
+    fill: #444444; }
+  .edlio .content svg.rotate {
+    animation: rotation 2s infinite linear;
+    transform-origin: 50% 50%; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+  .edlio .content a {
+    color: #1d9cd3;
+    text-decoration: none; }
+    .edlio .content a:link {
+      color: #1d9cd3; }
+    .edlio .content a:visited {
+      color: #1d9cd3; }
+    .edlio .content a:hover {
+      text-decoration: underline; }
+    .edlio .content a:active {
+      color: #177ba6; }
+    .edlio .content a.disabled {
+      color: #aaabad; }
+  .edlio .content uniform-notification,
+  .edlio .content .uniform-notification,
+  .edlio .content edlio-notification,
+  .edlio .content .edlio-notification {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 0.24063em;
+    color: white; }
+    .edlio .content uniform-notification.mini,
+    .edlio .content .uniform-notification.mini,
+    .edlio .content edlio-notification.mini,
+    .edlio .content .edlio-notification.mini {
+      display: inline-block; }
+    .edlio .content uniform-notification.info:not(.mini),
+    .edlio .content .uniform-notification.info:not(.mini),
+    .edlio .content edlio-notification.info:not(.mini),
+    .edlio .content .edlio-notification.info:not(.mini) {
+      color: #444444;
+      background: #f4f4f4;
+      box-shadow: inset 3.5em 0 0 2px #444444, inset 0 0 0 2px #444444; }
+      .edlio .content uniform-notification.info:not(.mini) > svg.icon,
+      .edlio .content .uniform-notification.info:not(.mini) > svg.icon,
+      .edlio .content edlio-notification.info:not(.mini) > svg.icon,
+      .edlio .content .edlio-notification.info:not(.mini) > svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: white; }
+      .edlio .content uniform-notification.info:not(.mini) .close,
+      .edlio .content .uniform-notification.info:not(.mini) .close,
+      .edlio .content edlio-notification.info:not(.mini) .close,
+      .edlio .content .edlio-notification.info:not(.mini) .close {
+        display: block; }
+        .edlio .content uniform-notification.info:not(.mini) .close svg.icon,
+        .edlio .content .uniform-notification.info:not(.mini) .close svg.icon,
+        .edlio .content edlio-notification.info:not(.mini) .close svg.icon,
+        .edlio .content .edlio-notification.info:not(.mini) .close svg.icon {
+          position: relative;
+          pointer-events: none;
+          vertical-align: middle;
+          fill: #444444;
+          fill: #444444; }
+    .edlio .content uniform-notification.info.mini,
+    .edlio .content .uniform-notification.info.mini,
+    .edlio .content edlio-notification.info.mini,
+    .edlio .content .edlio-notification.info.mini {
+      color: #444444; }
+      .edlio .content uniform-notification.info.mini svg.icon,
+      .edlio .content .uniform-notification.info.mini svg.icon,
+      .edlio .content edlio-notification.info.mini svg.icon,
+      .edlio .content .edlio-notification.info.mini svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: #444444; }
+    .edlio .content uniform-notification.alert:not(.mini),
+    .edlio .content .uniform-notification.alert:not(.mini),
+    .edlio .content edlio-notification.alert:not(.mini),
+    .edlio .content .edlio-notification.alert:not(.mini) {
+      color: #df7934;
+      background: white;
+      box-shadow: inset 3.5em 0 0 2px #df7934, inset 0 0 0 2px #df7934; }
+      .edlio .content uniform-notification.alert:not(.mini) > svg.icon,
+      .edlio .content .uniform-notification.alert:not(.mini) > svg.icon,
+      .edlio .content edlio-notification.alert:not(.mini) > svg.icon,
+      .edlio .content .edlio-notification.alert:not(.mini) > svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: white; }
+      .edlio .content uniform-notification.alert:not(.mini) .close,
+      .edlio .content .uniform-notification.alert:not(.mini) .close,
+      .edlio .content edlio-notification.alert:not(.mini) .close,
+      .edlio .content .edlio-notification.alert:not(.mini) .close {
+        display: block; }
+        .edlio .content uniform-notification.alert:not(.mini) .close svg.icon,
+        .edlio .content .uniform-notification.alert:not(.mini) .close svg.icon,
+        .edlio .content edlio-notification.alert:not(.mini) .close svg.icon,
+        .edlio .content .edlio-notification.alert:not(.mini) .close svg.icon {
+          position: relative;
+          pointer-events: none;
+          vertical-align: middle;
+          fill: #444444;
+          fill: #444444; }
+    .edlio .content uniform-notification.alert.mini,
+    .edlio .content .uniform-notification.alert.mini,
+    .edlio .content edlio-notification.alert.mini,
+    .edlio .content .edlio-notification.alert.mini {
+      color: #df7934; }
+      .edlio .content uniform-notification.alert.mini svg.icon,
+      .edlio .content .uniform-notification.alert.mini svg.icon,
+      .edlio .content edlio-notification.alert.mini svg.icon,
+      .edlio .content .edlio-notification.alert.mini svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: #df7934; }
+    .edlio .content uniform-notification.confirmation:not(.mini),
+    .edlio .content .uniform-notification.confirmation:not(.mini),
+    .edlio .content edlio-notification.confirmation:not(.mini),
+    .edlio .content .edlio-notification.confirmation:not(.mini) {
+      color: #33a468;
+      background: white;
+      box-shadow: inset 3.5em 0 0 2px #33a468, inset 0 0 0 2px #33a468; }
+      .edlio .content uniform-notification.confirmation:not(.mini) > svg.icon,
+      .edlio .content .uniform-notification.confirmation:not(.mini) > svg.icon,
+      .edlio .content edlio-notification.confirmation:not(.mini) > svg.icon,
+      .edlio .content .edlio-notification.confirmation:not(.mini) > svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: white; }
+      .edlio .content uniform-notification.confirmation:not(.mini) .close,
+      .edlio .content .uniform-notification.confirmation:not(.mini) .close,
+      .edlio .content edlio-notification.confirmation:not(.mini) .close,
+      .edlio .content .edlio-notification.confirmation:not(.mini) .close {
+        display: block; }
+        .edlio .content uniform-notification.confirmation:not(.mini) .close svg.icon,
+        .edlio .content .uniform-notification.confirmation:not(.mini) .close svg.icon,
+        .edlio .content edlio-notification.confirmation:not(.mini) .close svg.icon,
+        .edlio .content .edlio-notification.confirmation:not(.mini) .close svg.icon {
+          position: relative;
+          pointer-events: none;
+          vertical-align: middle;
+          fill: #444444;
+          fill: #444444; }
+    .edlio .content uniform-notification.confirmation.mini,
+    .edlio .content .uniform-notification.confirmation.mini,
+    .edlio .content edlio-notification.confirmation.mini,
+    .edlio .content .edlio-notification.confirmation.mini {
+      color: #33a468; }
+      .edlio .content uniform-notification.confirmation.mini svg.icon,
+      .edlio .content .uniform-notification.confirmation.mini svg.icon,
+      .edlio .content edlio-notification.confirmation.mini svg.icon,
+      .edlio .content .edlio-notification.confirmation.mini svg.icon {
+        position: relative;
+        pointer-events: none;
+        vertical-align: middle;
+        fill: #444444;
+        fill: #33a468; }
+    .edlio .content uniform-notification .message,
+    .edlio .content .uniform-notification .message,
+    .edlio .content edlio-notification .message,
+    .edlio .content .edlio-notification .message {
+      margin: 0 1em;
+      padding: 0 0 0 1em; }
+    .edlio .content uniform-notification.mini .message,
+    .edlio .content .uniform-notification.mini .message,
+    .edlio .content edlio-notification.mini .message,
+    .edlio .content .edlio-notification.mini .message {
+      margin: 0 1em;
+      padding: 0; }
+    .edlio .content uniform-notification:not(.mini) .message,
+    .edlio .content .uniform-notification:not(.mini) .message,
+    .edlio .content edlio-notification:not(.mini) .message,
+    .edlio .content .edlio-notification:not(.mini) .message {
+      -webkit-flex: 1 1 0%;
+      -ms-flex: 1 1 0%;
+      flex: 1 1 0%;
+      text-align: center; }
+      .edlio .content uniform-notification:not(.mini) .message h1,
+      .edlio .content uniform-notification:not(.mini) .message h3,
+      .edlio .content .uniform-notification:not(.mini) .message h1,
+      .edlio .content .uniform-notification:not(.mini) .message h3,
+      .edlio .content edlio-notification:not(.mini) .message h1,
+      .edlio .content edlio-notification:not(.mini) .message h3,
+      .edlio .content .edlio-notification:not(.mini) .message h1,
+      .edlio .content .edlio-notification:not(.mini) .message h3 {
+        font-weight: 600;
+        margin: 0.5em 0; }
+        @media screen and (max-width: 47.9375rem) {
+          .edlio .content uniform-notification:not(.mini) .message h1,
+          .edlio .content uniform-notification:not(.mini) .message h3,
+          .edlio .content .uniform-notification:not(.mini) .message h1,
+          .edlio .content .uniform-notification:not(.mini) .message h3,
+          .edlio .content edlio-notification:not(.mini) .message h1,
+          .edlio .content edlio-notification:not(.mini) .message h3,
+          .edlio .content .edlio-notification:not(.mini) .message h1,
+          .edlio .content .edlio-notification:not(.mini) .message h3 {
+            font-size: 1rem;
+            line-height: 1.5rem; } }
+        @media screen and (min-width: 48rem) {
+          .edlio .content uniform-notification:not(.mini) .message h1,
+          .edlio .content uniform-notification:not(.mini) .message h3,
+          .edlio .content .uniform-notification:not(.mini) .message h1,
+          .edlio .content .uniform-notification:not(.mini) .message h3,
+          .edlio .content edlio-notification:not(.mini) .message h1,
+          .edlio .content edlio-notification:not(.mini) .message h3,
+          .edlio .content .edlio-notification:not(.mini) .message h1,
+          .edlio .content .edlio-notification:not(.mini) .message h3 {
+            font-size: 1rem;
+            line-height: 1.5rem; } }
+        @media screen and (min-width: 64rem) {
+          .edlio .content uniform-notification:not(.mini) .message h1,
+          .edlio .content uniform-notification:not(.mini) .message h3,
+          .edlio .content .uniform-notification:not(.mini) .message h1,
+          .edlio .content .uniform-notification:not(.mini) .message h3,
+          .edlio .content edlio-notification:not(.mini) .message h1,
+          .edlio .content edlio-notification:not(.mini) .message h3,
+          .edlio .content .edlio-notification:not(.mini) .message h1,
+          .edlio .content .edlio-notification:not(.mini) .message h3 {
+            font-size: 1.0625rem;
+            line-height: 1.59375rem; } }
+        @media screen and (min-width: 75rem) {
+          .edlio .content uniform-notification:not(.mini) .message h1,
+          .edlio .content uniform-notification:not(.mini) .message h3,
+          .edlio .content .uniform-notification:not(.mini) .message h1,
+          .edlio .content .uniform-notification:not(.mini) .message h3,
+          .edlio .content edlio-notification:not(.mini) .message h1,
+          .edlio .content edlio-notification:not(.mini) .message h3,
+          .edlio .content .edlio-notification:not(.mini) .message h1,
+          .edlio .content .edlio-notification:not(.mini) .message h3 {
+            font-size: 1.125rem;
+            line-height: 1.6875rem; } }
+      .edlio .content uniform-notification:not(.mini) .message p,
+      .edlio .content .uniform-notification:not(.mini) .message p,
+      .edlio .content edlio-notification:not(.mini) .message p,
+      .edlio .content .edlio-notification:not(.mini) .message p {
+        margin-bottom: 0.5em;
+        color: #767676; }
+      @media screen and (max-width: 47.9375rem) {
+        .edlio .content uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content .uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content edlio-notification:not(.mini) .message .disclaimer,
+        .edlio .content .edlio-notification:not(.mini) .message .disclaimer {
+          font-size: 0.875rem;
+          line-height: 1.5rem; } }
+      @media screen and (min-width: 48rem) {
+        .edlio .content uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content .uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content edlio-notification:not(.mini) .message .disclaimer,
+        .edlio .content .edlio-notification:not(.mini) .message .disclaimer {
+          font-size: 0.875rem;
+          line-height: 1.5rem; } }
+      @media screen and (min-width: 64rem) {
+        .edlio .content uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content .uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content edlio-notification:not(.mini) .message .disclaimer,
+        .edlio .content .edlio-notification:not(.mini) .message .disclaimer {
+          font-size: 0.9375rem;
+          line-height: 1.59375rem; } }
+      @media screen and (min-width: 75rem) {
+        .edlio .content uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content .uniform-notification:not(.mini) .message .disclaimer,
+        .edlio .content edlio-notification:not(.mini) .message .disclaimer,
+        .edlio .content .edlio-notification:not(.mini) .message .disclaimer {
+          font-size: 1rem;
+          line-height: 1.6875rem; } }
+    .edlio .content uniform-notification .close,
+    .edlio .content .uniform-notification .close,
+    .edlio .content edlio-notification .close,
+    .edlio .content .edlio-notification .close {
+      -ms-flex-item-align: start;
+      -webkit-align-self: flex-start;
+      align-self: flex-start;
+      padding: 0;
+      cursor: pointer; }
+      .edlio .content uniform-notification .close .icon,
+      .edlio .content .uniform-notification .close .icon,
+      .edlio .content edlio-notification .close .icon,
+      .edlio .content .edlio-notification .close .icon {
+        border-radius: 0.24063em; }
+  .edlio .content uniform-badge {
+    background-color: #ededed;
+    color: #222222;
+    padding: 0.3em 0.5em;
+    margin: 0 0.5em; }
+    @media screen and (max-width: 47.9375rem) {
+      .edlio .content uniform-badge {
+        font-size: 0.875rem;
+        line-height: 1.5rem; } }
+    @media screen and (min-width: 48rem) {
+      .edlio .content uniform-badge {
+        font-size: 0.875rem;
+        line-height: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .edlio .content uniform-badge {
+        font-size: 0.9375rem;
+        line-height: 1.59375rem; } }
+    @media screen and (min-width: 75rem) {
+      .edlio .content uniform-badge {
+        font-size: 1rem;
+        line-height: 1.6875rem; } }
+    .edlio .content uniform-badge.badge-info {
+      background-color: #ededed;
+      color: #222222; }
+    .edlio .content uniform-badge.badge-alert {
+      background-color: #df7934;
+      color: white; }
+    .edlio .content uniform-badge.badge-success {
+      background-color: #33a468;
+      color: white; }
+  .edlio .content uniform-overlay,
+  .edlio .content .uniform-overlay,
+  .edlio .content edlio-overlay,
+  .edlio .content .edlio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.618);
+    z-index: 97; }
+  .edlio .content uniform-modal,
+  .edlio .content edlio-modal {
+    display: none; }
+  .edlio .content uniform-overlay,
+  .edlio .content edlio-overlay {
+    -webkit-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%; }
+    .edlio .content uniform-overlay uniform-modal,
+    .edlio .content uniform-overlay edlio-modal,
+    .edlio .content edlio-overlay uniform-modal,
+    .edlio .content edlio-overlay edlio-modal {
+      -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      position: relative;
+      z-index: 98;
+      opacity: 0; }
+      .edlio .content uniform-overlay uniform-modal.ios-modal,
+      .edlio .content uniform-overlay edlio-modal.ios-modal,
+      .edlio .content edlio-overlay uniform-modal.ios-modal,
+      .edlio .content edlio-overlay edlio-modal.ios-modal {
+        position: fixed;
+        max-height: 100% !important;
+        width: 100% !important; }
+      .edlio .content uniform-overlay uniform-modal.transition-in,
+      .edlio .content uniform-overlay edlio-modal.transition-in,
+      .edlio .content edlio-overlay uniform-modal.transition-in,
+      .edlio .content edlio-overlay edlio-modal.transition-in {
+        opacity: 1;
+        transition: all 0.3s cubic-bezier(0.44, 0.01, 0.37, 0.99);
+        -webkit-transform: translate3d(0, 0, 0) scale(1);
+        transform: translate3d(0, 0, 0) scale(1); }
+      .edlio .content uniform-overlay uniform-modal.transition-out,
+      .edlio .content uniform-overlay edlio-modal.transition-out,
+      .edlio .content edlio-overlay uniform-modal.transition-out,
+      .edlio .content edlio-overlay edlio-modal.transition-out {
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.44, 0.01, 0.37, 0.99);
+        -webkit-transform: translate3d(0, -25%, 0) scale(0.2);
+        transform: translate3d(0, -25%, 0) scale(0.2); }
+  .edlio .content uniform-overlay,
+  .edlio .content edlio-overlay {
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
+    .edlio .content uniform-overlay uniform-modal,
+    .edlio .content uniform-overlay edlio-modal,
+    .edlio .content edlio-overlay uniform-modal,
+    .edlio .content edlio-overlay edlio-modal {
+      width: 100%;
+      height: 100%;
+      min-width: 16rem;
+      max-width: 82rem;
+      max-height: 100vh;
+      overflow: auto;
+      background-color: white;
+      color: #444444; }
+      .edlio .content uniform-overlay uniform-modal page,
+      .edlio .content uniform-overlay edlio-modal page,
+      .edlio .content edlio-overlay uniform-modal page,
+      .edlio .content edlio-overlay edlio-modal page {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        transition: transform 0.3s ease-in; }
+        .edlio .content uniform-overlay uniform-modal page.current,
+        .edlio .content uniform-overlay edlio-modal page.current,
+        .edlio .content edlio-overlay uniform-modal page.current,
+        .edlio .content edlio-overlay edlio-modal page.current {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          visibility: visible;
+          opacity: 1;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-transform: translateX(0%);
+          transform: translateX(0%); }
+          .edlio .content uniform-overlay uniform-modal page.current > *,
+          .edlio .content uniform-overlay edlio-modal page.current > *,
+          .edlio .content edlio-overlay uniform-modal page.current > *,
+          .edlio .content edlio-overlay edlio-modal page.current > * {
+            padding: 0 1.618em; }
+          .edlio .content uniform-overlay uniform-modal page.current header,
+          .edlio .content uniform-overlay edlio-modal page.current header,
+          .edlio .content edlio-overlay uniform-modal page.current header,
+          .edlio .content edlio-overlay edlio-modal page.current header {
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            background-color: #cccccc; }
+            .edlio .content uniform-overlay uniform-modal page.current header h1,
+            .edlio .content uniform-overlay edlio-modal page.current header h1,
+            .edlio .content edlio-overlay uniform-modal page.current header h1,
+            .edlio .content edlio-overlay edlio-modal page.current header h1 {
+              -webkit-order: 0;
+              -ms-flex-order: 0;
+              order: 0;
+              margin: 0 auto; }
+            .edlio .content uniform-overlay uniform-modal page.current header svg.icon,
+            .edlio .content uniform-overlay edlio-modal page.current header svg.icon,
+            .edlio .content edlio-overlay uniform-modal page.current header svg.icon,
+            .edlio .content edlio-overlay edlio-modal page.current header svg.icon {
+              pointer-events: all;
+              cursor: pointer; }
+              .edlio .content uniform-overlay uniform-modal page.current header svg.icon.back,
+              .edlio .content uniform-overlay edlio-modal page.current header svg.icon.back,
+              .edlio .content edlio-overlay uniform-modal page.current header svg.icon.back,
+              .edlio .content edlio-overlay edlio-modal page.current header svg.icon.back {
+                -webkit-order: -1;
+                -ms-flex-order: -1;
+                order: -1; }
+              .edlio .content uniform-overlay uniform-modal page.current header svg.icon.close,
+              .edlio .content uniform-overlay edlio-modal page.current header svg.icon.close,
+              .edlio .content edlio-overlay uniform-modal page.current header svg.icon.close,
+              .edlio .content edlio-overlay edlio-modal page.current header svg.icon.close {
+                -webkit-order: 1;
+                -ms-flex-order: 1;
+                order: 1;
+                margin-left: 0; }
+          .edlio .content uniform-overlay uniform-modal page.current .content,
+          .edlio .content uniform-overlay edlio-modal page.current .content,
+          .edlio .content edlio-overlay uniform-modal page.current .content,
+          .edlio .content edlio-overlay edlio-modal page.current .content {
+            padding-top: 1em;
+            padding-bottom: 1em;
+            overflow: auto; }
+          .edlio .content uniform-overlay uniform-modal page.current footer,
+          .edlio .content uniform-overlay edlio-modal page.current footer,
+          .edlio .content edlio-overlay uniform-modal page.current footer,
+          .edlio .content edlio-overlay edlio-modal page.current footer {
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-pack: end;
+            -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            margin-top: auto;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border-top: 2px solid #aaabad; }
+            .edlio .content uniform-overlay uniform-modal page.current footer .button,
+            .edlio .content uniform-overlay edlio-modal page.current footer .button,
+            .edlio .content edlio-overlay uniform-modal page.current footer .button,
+            .edlio .content edlio-overlay edlio-modal page.current footer .button {
+              margin-bottom: 0; }
+              .edlio .content uniform-overlay uniform-modal page.current footer .button:last-of-type,
+              .edlio .content uniform-overlay edlio-modal page.current footer .button:last-of-type,
+              .edlio .content edlio-overlay uniform-modal page.current footer .button:last-of-type,
+              .edlio .content edlio-overlay edlio-modal page.current footer .button:last-of-type {
+                margin-right: 0; }
+              @media screen and (max-width: 31.9375rem) {
+                .edlio .content uniform-overlay uniform-modal page.current footer .button:not(:last-of-type),
+                .edlio .content uniform-overlay edlio-modal page.current footer .button:not(:last-of-type),
+                .edlio .content edlio-overlay uniform-modal page.current footer .button:not(:last-of-type),
+                .edlio .content edlio-overlay edlio-modal page.current footer .button:not(:last-of-type) {
+                  margin-right: 0.5em; } }
+        .edlio .content uniform-overlay uniform-modal page.past,
+        .edlio .content uniform-overlay edlio-modal page.past,
+        .edlio .content edlio-overlay uniform-modal page.past,
+        .edlio .content edlio-overlay edlio-modal page.past {
+          position: absolute;
+          -webkit-transform: translateX(-150%);
+          transform: translateX(-150%); }
+        .edlio .content uniform-overlay uniform-modal page.future,
+        .edlio .content uniform-overlay edlio-modal page.future,
+        .edlio .content edlio-overlay uniform-modal page.future,
+        .edlio .content edlio-overlay edlio-modal page.future {
+          position: absolute;
+          -webkit-transform: translateX(150%);
+          transform: translateX(150%); }
+      @media screen and (min-width: 48rem) {
+        .edlio .content uniform-overlay uniform-modal,
+        .edlio .content uniform-overlay edlio-modal,
+        .edlio .content edlio-overlay uniform-modal,
+        .edlio .content edlio-overlay edlio-modal {
+          max-width: 40em;
+          width: auto;
+          height: auto;
+          border-radius: 0.24063em; }
+          .edlio .content uniform-overlay uniform-modal.full,
+          .edlio .content uniform-overlay edlio-modal.full,
+          .edlio .content edlio-overlay uniform-modal.full,
+          .edlio .content edlio-overlay edlio-modal.full {
+            max-width: 100vw;
+            width: 100%;
+            height: 100%;
+            border-radius: 0; } }
+      @media screen and (max-width: 31.9375rem) {
+        .edlio .content uniform-overlay uniform-modal,
+        .edlio .content uniform-overlay edlio-modal,
+        .edlio .content edlio-overlay uniform-modal,
+        .edlio .content edlio-overlay edlio-modal {
+          position: fixed;
+          width: 100vw;
+          z-index: 2100;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0; } }
+  .edlio .content legend {
+    display: block;
+    color: #444444; }
+  .edlio .content label {
+    display: block;
+    color: #444444;
+    font-weight: 600; }
+    .edlio .content label .hint {
+      display: block;
+      color: #767676;
+      font-weight: 300;
+      font-size: 0.85em; }
+  .edlio .content uniform-phone-number {
+    display: inline-block; }
+    .edlio .content uniform-phone-number > span {
+      text-align: left; }
+  .edlio .content uniform-phone-number input[type="text"], .edlio .content uniform-phone-number input[type="email"], .edlio .content uniform-phone-number input[type="number"], .edlio .content uniform-phone-number input[type="url"], .edlio .content uniform-phone-number input[type="date"], .edlio .content uniform-phone-number input[type="time"], .edlio .content uniform-phone-number input[type="password"], .edlio .content uniform-phone-number input[type="file"], .edlio .content uniform-phone-number input[type="image"], .edlio .content uniform-phone-number input[type="tel"], .edlio .content uniform-phone-number input[type="email"], .edlio .content uniform-phone-number input[type="submit"], .edlio .content uniform-phone-number input[type="reset"], .edlio .content uniform-phone-number input[type="button"],
+  .edlio .content uniform-email input[type="text"],
+  .edlio .content uniform-email input[type="email"],
+  .edlio .content uniform-email input[type="number"],
+  .edlio .content uniform-email input[type="url"],
+  .edlio .content uniform-email input[type="date"],
+  .edlio .content uniform-email input[type="time"],
+  .edlio .content uniform-email input[type="password"],
+  .edlio .content uniform-email input[type="file"],
+  .edlio .content uniform-email input[type="image"],
+  .edlio .content uniform-email input[type="tel"],
+  .edlio .content uniform-email input[type="email"],
+  .edlio .content uniform-email input[type="submit"],
+  .edlio .content uniform-email input[type="reset"],
+  .edlio .content uniform-email input[type="button"],
+  .edlio .content input[type="text"],
+  .edlio .content input[type="email"],
+  .edlio .content input[type="number"],
+  .edlio .content input[type="url"],
+  .edlio .content input[type="date"],
+  .edlio .content input[type="time"],
+  .edlio .content input[type="password"],
+  .edlio .content input[type="file"],
+  .edlio .content input[type="image"],
+  .edlio .content input[type="tel"],
+  .edlio .content input[type="email"],
+  .edlio .content input[type="submit"],
+  .edlio .content input[type="reset"],
+  .edlio .content input[type="button"] {
+    width: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    color: #444444;
+    background-color: white;
+    border: 1px solid #767676;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0; }
+    .edlio .content uniform-phone-number input[type="text"].button, .edlio .content uniform-phone-number input[type="email"].button, .edlio .content uniform-phone-number input[type="number"].button, .edlio .content uniform-phone-number input[type="url"].button, .edlio .content uniform-phone-number input[type="date"].button, .edlio .content uniform-phone-number input[type="time"].button, .edlio .content uniform-phone-number input[type="password"].button, .edlio .content uniform-phone-number input[type="file"].button, .edlio .content uniform-phone-number input[type="image"].button, .edlio .content uniform-phone-number input[type="tel"].button, .edlio .content uniform-phone-number input[type="email"].button, .edlio .content uniform-phone-number input[type="submit"].button, .edlio .content uniform-phone-number input[type="reset"].button, .edlio .content uniform-phone-number input[type="button"].button,
+    .edlio .content uniform-email input[type="text"].button,
+    .edlio .content uniform-email input[type="email"].button,
+    .edlio .content uniform-email input[type="number"].button,
+    .edlio .content uniform-email input[type="url"].button,
+    .edlio .content uniform-email input[type="date"].button,
+    .edlio .content uniform-email input[type="time"].button,
+    .edlio .content uniform-email input[type="password"].button,
+    .edlio .content uniform-email input[type="file"].button,
+    .edlio .content uniform-email input[type="image"].button,
+    .edlio .content uniform-email input[type="tel"].button,
+    .edlio .content uniform-email input[type="email"].button,
+    .edlio .content uniform-email input[type="submit"].button,
+    .edlio .content uniform-email input[type="reset"].button,
+    .edlio .content uniform-email input[type="button"].button,
+    .edlio .content input[type="text"].button,
+    .edlio .content input[type="email"].button,
+    .edlio .content input[type="number"].button,
+    .edlio .content input[type="url"].button,
+    .edlio .content input[type="date"].button,
+    .edlio .content input[type="time"].button,
+    .edlio .content input[type="password"].button,
+    .edlio .content input[type="file"].button,
+    .edlio .content input[type="image"].button,
+    .edlio .content input[type="tel"].button,
+    .edlio .content input[type="email"].button,
+    .edlio .content input[type="submit"].button,
+    .edlio .content input[type="reset"].button,
+    .edlio .content input[type="button"].button {
+      border: none; }
+    .edlio .content uniform-phone-number input[type="text"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="email"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="number"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="url"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="date"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="time"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="password"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="file"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="image"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="tel"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="email"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="submit"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="reset"]::-webkit-input-placeholder, .edlio .content uniform-phone-number input[type="button"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="text"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="email"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="number"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="url"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="date"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="time"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="password"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="file"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="image"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="tel"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="email"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="submit"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="reset"]::-webkit-input-placeholder,
+    .edlio .content uniform-email input[type="button"]::-webkit-input-placeholder,
+    .edlio .content input[type="text"]::-webkit-input-placeholder,
+    .edlio .content input[type="email"]::-webkit-input-placeholder,
+    .edlio .content input[type="number"]::-webkit-input-placeholder,
+    .edlio .content input[type="url"]::-webkit-input-placeholder,
+    .edlio .content input[type="date"]::-webkit-input-placeholder,
+    .edlio .content input[type="time"]::-webkit-input-placeholder,
+    .edlio .content input[type="password"]::-webkit-input-placeholder,
+    .edlio .content input[type="file"]::-webkit-input-placeholder,
+    .edlio .content input[type="image"]::-webkit-input-placeholder,
+    .edlio .content input[type="tel"]::-webkit-input-placeholder,
+    .edlio .content input[type="email"]::-webkit-input-placeholder,
+    .edlio .content input[type="submit"]::-webkit-input-placeholder,
+    .edlio .content input[type="reset"]::-webkit-input-placeholder,
+    .edlio .content input[type="button"]::-webkit-input-placeholder {
+      color: #767676;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+    .edlio .content uniform-phone-number input[type="text"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="email"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="number"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="url"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="date"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="time"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="password"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="file"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="image"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="tel"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="email"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="submit"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="reset"]::-moz-placeholder, .edlio .content uniform-phone-number input[type="button"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="text"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="email"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="number"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="url"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="date"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="time"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="password"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="file"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="image"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="tel"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="email"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="submit"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="reset"]::-moz-placeholder,
+    .edlio .content uniform-email input[type="button"]::-moz-placeholder,
+    .edlio .content input[type="text"]::-moz-placeholder,
+    .edlio .content input[type="email"]::-moz-placeholder,
+    .edlio .content input[type="number"]::-moz-placeholder,
+    .edlio .content input[type="url"]::-moz-placeholder,
+    .edlio .content input[type="date"]::-moz-placeholder,
+    .edlio .content input[type="time"]::-moz-placeholder,
+    .edlio .content input[type="password"]::-moz-placeholder,
+    .edlio .content input[type="file"]::-moz-placeholder,
+    .edlio .content input[type="image"]::-moz-placeholder,
+    .edlio .content input[type="tel"]::-moz-placeholder,
+    .edlio .content input[type="email"]::-moz-placeholder,
+    .edlio .content input[type="submit"]::-moz-placeholder,
+    .edlio .content input[type="reset"]::-moz-placeholder,
+    .edlio .content input[type="button"]::-moz-placeholder {
+      color: #767676;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      opacity: 1; }
+    .edlio .content uniform-phone-number input[type="text"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="email"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="number"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="url"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="date"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="time"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="password"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="file"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="image"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="tel"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="email"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="submit"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="reset"]::-ms-input-placeholder, .edlio .content uniform-phone-number input[type="button"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="text"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="email"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="number"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="url"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="date"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="time"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="password"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="file"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="image"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="tel"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="email"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="submit"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="reset"]::-ms-input-placeholder,
+    .edlio .content uniform-email input[type="button"]::-ms-input-placeholder,
+    .edlio .content input[type="text"]::-ms-input-placeholder,
+    .edlio .content input[type="email"]::-ms-input-placeholder,
+    .edlio .content input[type="number"]::-ms-input-placeholder,
+    .edlio .content input[type="url"]::-ms-input-placeholder,
+    .edlio .content input[type="date"]::-ms-input-placeholder,
+    .edlio .content input[type="time"]::-ms-input-placeholder,
+    .edlio .content input[type="password"]::-ms-input-placeholder,
+    .edlio .content input[type="file"]::-ms-input-placeholder,
+    .edlio .content input[type="image"]::-ms-input-placeholder,
+    .edlio .content input[type="tel"]::-ms-input-placeholder,
+    .edlio .content input[type="email"]::-ms-input-placeholder,
+    .edlio .content input[type="submit"]::-ms-input-placeholder,
+    .edlio .content input[type="reset"]::-ms-input-placeholder,
+    .edlio .content input[type="button"]::-ms-input-placeholder {
+      color: #767676;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+    .edlio .content uniform-phone-number input[type="text"]::placeholder, .edlio .content uniform-phone-number input[type="email"]::placeholder, .edlio .content uniform-phone-number input[type="number"]::placeholder, .edlio .content uniform-phone-number input[type="url"]::placeholder, .edlio .content uniform-phone-number input[type="date"]::placeholder, .edlio .content uniform-phone-number input[type="time"]::placeholder, .edlio .content uniform-phone-number input[type="password"]::placeholder, .edlio .content uniform-phone-number input[type="file"]::placeholder, .edlio .content uniform-phone-number input[type="image"]::placeholder, .edlio .content uniform-phone-number input[type="tel"]::placeholder, .edlio .content uniform-phone-number input[type="email"]::placeholder, .edlio .content uniform-phone-number input[type="submit"]::placeholder, .edlio .content uniform-phone-number input[type="reset"]::placeholder, .edlio .content uniform-phone-number input[type="button"]::placeholder,
+    .edlio .content uniform-email input[type="text"]::placeholder,
+    .edlio .content uniform-email input[type="email"]::placeholder,
+    .edlio .content uniform-email input[type="number"]::placeholder,
+    .edlio .content uniform-email input[type="url"]::placeholder,
+    .edlio .content uniform-email input[type="date"]::placeholder,
+    .edlio .content uniform-email input[type="time"]::placeholder,
+    .edlio .content uniform-email input[type="password"]::placeholder,
+    .edlio .content uniform-email input[type="file"]::placeholder,
+    .edlio .content uniform-email input[type="image"]::placeholder,
+    .edlio .content uniform-email input[type="tel"]::placeholder,
+    .edlio .content uniform-email input[type="email"]::placeholder,
+    .edlio .content uniform-email input[type="submit"]::placeholder,
+    .edlio .content uniform-email input[type="reset"]::placeholder,
+    .edlio .content uniform-email input[type="button"]::placeholder,
+    .edlio .content input[type="text"]::placeholder,
+    .edlio .content input[type="email"]::placeholder,
+    .edlio .content input[type="number"]::placeholder,
+    .edlio .content input[type="url"]::placeholder,
+    .edlio .content input[type="date"]::placeholder,
+    .edlio .content input[type="time"]::placeholder,
+    .edlio .content input[type="password"]::placeholder,
+    .edlio .content input[type="file"]::placeholder,
+    .edlio .content input[type="image"]::placeholder,
+    .edlio .content input[type="tel"]::placeholder,
+    .edlio .content input[type="email"]::placeholder,
+    .edlio .content input[type="submit"]::placeholder,
+    .edlio .content input[type="reset"]::placeholder,
+    .edlio .content input[type="button"]::placeholder {
+      color: #767676;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  .edlio .content uniform-phone-number input[type="radio"], .edlio .content uniform-phone-number input[type="checkbox"],
+  .edlio .content uniform-email input[type="radio"],
+  .edlio .content uniform-email input[type="checkbox"],
+  .edlio .content input[type="radio"],
+  .edlio .content input[type="checkbox"] {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0; }
+    .edlio .content uniform-phone-number input[type="radio"] + label, .edlio .content uniform-phone-number input[type="checkbox"] + label,
+    .edlio .content uniform-email input[type="radio"] + label,
+    .edlio .content uniform-email input[type="checkbox"] + label,
+    .edlio .content input[type="radio"] + label,
+    .edlio .content input[type="checkbox"] + label {
+      display: inline;
+      cursor: pointer;
+      font-weight: normal; }
+      .edlio .content uniform-phone-number input[type="radio"] + label:before, .edlio .content uniform-phone-number input[type="checkbox"] + label:before,
+      .edlio .content uniform-email input[type="radio"] + label:before,
+      .edlio .content uniform-email input[type="checkbox"] + label:before,
+      .edlio .content input[type="radio"] + label:before,
+      .edlio .content input[type="checkbox"] + label:before {
+        content: "";
+        display: inline-block;
+        width: calc(1em - ( 2 * 2px ));
+        height: calc(1em - ( 2 * 2px ));
+        margin: 0 .618em 0 0;
+        background: white;
+        box-shadow: 0 0 0 2px #555555;
+        text-align: center;
+        vertical-align: initial;
+        cursor: pointer; }
+    .edlio .content uniform-phone-number input[type="radio"]:checked + label:before, .edlio .content uniform-phone-number input[type="checkbox"]:checked + label:before,
+    .edlio .content uniform-email input[type="radio"]:checked + label:before,
+    .edlio .content uniform-email input[type="checkbox"]:checked + label:before,
+    .edlio .content input[type="radio"]:checked + label:before,
+    .edlio .content input[type="checkbox"]:checked + label:before {
+      content: ""; }
+  .edlio .content uniform-phone-number input[type=checkbox] + label:before,
+  .edlio .content uniform-email input[type=checkbox] + label:before,
+  .edlio .content input[type=checkbox] + label:before {
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0 0 0 2px #555555; }
+  .edlio .content uniform-phone-number input[type=checkbox]:checked + label,
+  .edlio .content uniform-email input[type=checkbox]:checked + label,
+  .edlio .content input[type=checkbox]:checked + label {
+    position: relative; }
+    .edlio .content uniform-phone-number input[type=checkbox]:checked + label:before,
+    .edlio .content uniform-email input[type=checkbox]:checked + label:before,
+    .edlio .content input[type=checkbox]:checked + label:before {
+      background: white;
+      box-shadow: 0 0 0 2px #555555; }
+    .edlio .content uniform-phone-number input[type=checkbox]:checked + label:after,
+    .edlio .content uniform-email input[type=checkbox]:checked + label:after,
+    .edlio .content input[type=checkbox]:checked + label:after {
+      content: "";
+      display: block;
+      width: .32em;
+      height: .72em;
+      border-width: 0 3px 3px 0;
+      border-style: solid;
+      border-color: #555555;
+      position: absolute;
+      top: .2em;
+      left: .25em;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .edlio .content uniform-phone-number input[type=checkbox].toggle + label,
+  .edlio .content uniform-email input[type=checkbox].toggle + label,
+  .edlio .content input[type=checkbox].toggle + label {
+    position: relative; }
+    .edlio .content uniform-phone-number input[type=checkbox].toggle + label:before,
+    .edlio .content uniform-email input[type=checkbox].toggle + label:before,
+    .edlio .content input[type=checkbox].toggle + label:before {
+      width: 1.382em;
+      border-radius: 1em;
+      border-color: #555555;
+      background-color: white;
+      box-shadow: 0 0 0 2px #555555; }
+    .edlio .content uniform-phone-number input[type=checkbox].toggle + label:after,
+    .edlio .content uniform-email input[type=checkbox].toggle + label:after,
+    .edlio .content input[type=checkbox].toggle + label:after {
+      content: "";
+      position: absolute;
+      top: .15em;
+      left: -2px;
+      display: block;
+      height: 1em;
+      width: 1em;
+      background: white;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #555555;
+      border-radius: 50%; }
+  .edlio .content uniform-phone-number input[type=checkbox].toggle:checked + label:before,
+  .edlio .content uniform-email input[type=checkbox].toggle:checked + label:before,
+  .edlio .content input[type=checkbox].toggle:checked + label:before {
+    background-color: #555555;
+    box-shadow: 0 0 0 2px #555555; }
+  .edlio .content uniform-phone-number input[type=checkbox].toggle:checked + label:after,
+  .edlio .content uniform-email input[type=checkbox].toggle:checked + label:after,
+  .edlio .content input[type=checkbox].toggle:checked + label:after {
+    background: white;
+    border-color: #555555;
+    left: calc(.382em + 2px); }
+  .edlio .content uniform-phone-number input[type=checkbox][disabled] + label,
+  .edlio .content uniform-phone-number input[type=checkbox] .disabled + label,
+  .edlio .content uniform-email input[type=checkbox][disabled] + label,
+  .edlio .content uniform-email input[type=checkbox] .disabled + label,
+  .edlio .content input[type=checkbox][disabled] + label,
+  .edlio .content input[type=checkbox] .disabled + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled] + label:before,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled + label:before,
+    .edlio .content uniform-email input[type=checkbox][disabled] + label:before,
+    .edlio .content uniform-email input[type=checkbox] .disabled + label:before,
+    .edlio .content input[type=checkbox][disabled] + label:before,
+    .edlio .content input[type=checkbox] .disabled + label:before {
+      cursor: default;
+      background-color: #f4f4f4;
+      border-color: #aaabad;
+      box-shadow: 0 0 0 2px #aaabad; }
+  .edlio .content uniform-phone-number input[type=checkbox][disabled]:checked + label,
+  .edlio .content uniform-phone-number input[type=checkbox] .disabled:checked + label,
+  .edlio .content uniform-email input[type=checkbox][disabled]:checked + label,
+  .edlio .content uniform-email input[type=checkbox] .disabled:checked + label,
+  .edlio .content input[type=checkbox][disabled]:checked + label,
+  .edlio .content input[type=checkbox] .disabled:checked + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled]:checked + label:before,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled:checked + label:before,
+    .edlio .content uniform-email input[type=checkbox][disabled]:checked + label:before,
+    .edlio .content uniform-email input[type=checkbox] .disabled:checked + label:before,
+    .edlio .content input[type=checkbox][disabled]:checked + label:before,
+    .edlio .content input[type=checkbox] .disabled:checked + label:before {
+      background-color: #f4f4f4;
+      border-color: #aaabad;
+      box-shadow: 0 0 0 2px #aaabad; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled]:checked + label:after,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled:checked + label:after,
+    .edlio .content uniform-email input[type=checkbox][disabled]:checked + label:after,
+    .edlio .content uniform-email input[type=checkbox] .disabled:checked + label:after,
+    .edlio .content input[type=checkbox][disabled]:checked + label:after,
+    .edlio .content input[type=checkbox] .disabled:checked + label:after {
+      border-color: #aaabad; }
+  .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle + label,
+  .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle + label,
+  .edlio .content uniform-email input[type=checkbox][disabled].toggle + label,
+  .edlio .content uniform-email input[type=checkbox] .disabled.toggle + label,
+  .edlio .content input[type=checkbox][disabled].toggle + label,
+  .edlio .content input[type=checkbox] .disabled.toggle + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle + label:before,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle + label:before,
+    .edlio .content uniform-email input[type=checkbox][disabled].toggle + label:before,
+    .edlio .content uniform-email input[type=checkbox] .disabled.toggle + label:before,
+    .edlio .content input[type=checkbox][disabled].toggle + label:before,
+    .edlio .content input[type=checkbox] .disabled.toggle + label:before {
+      cursor: default;
+      border-color: #aaabad;
+      background-color: #f4f4f4;
+      box-shadow: 0 0 0 2px #aaabad; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle + label:after,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle + label:after,
+    .edlio .content uniform-email input[type=checkbox][disabled].toggle + label:after,
+    .edlio .content uniform-email input[type=checkbox] .disabled.toggle + label:after,
+    .edlio .content input[type=checkbox][disabled].toggle + label:after,
+    .edlio .content input[type=checkbox] .disabled.toggle + label:after {
+      cursor: default;
+      background: #aaabad;
+      border-color: #aaabad; }
+  .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle:checked + label,
+  .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle:checked + label,
+  .edlio .content uniform-email input[type=checkbox][disabled].toggle:checked + label,
+  .edlio .content uniform-email input[type=checkbox] .disabled.toggle:checked + label,
+  .edlio .content input[type=checkbox][disabled].toggle:checked + label,
+  .edlio .content input[type=checkbox] .disabled.toggle:checked + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle:checked + label:before,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle:checked + label:before,
+    .edlio .content uniform-email input[type=checkbox][disabled].toggle:checked + label:before,
+    .edlio .content uniform-email input[type=checkbox] .disabled.toggle:checked + label:before,
+    .edlio .content input[type=checkbox][disabled].toggle:checked + label:before,
+    .edlio .content input[type=checkbox] .disabled.toggle:checked + label:before {
+      background-color: #f4f4f4;
+      box-shadow: 0 0 0 2px #aaabad; }
+    .edlio .content uniform-phone-number input[type=checkbox][disabled].toggle:checked + label:after,
+    .edlio .content uniform-phone-number input[type=checkbox] .disabled.toggle:checked + label:after,
+    .edlio .content uniform-email input[type=checkbox][disabled].toggle:checked + label:after,
+    .edlio .content uniform-email input[type=checkbox] .disabled.toggle:checked + label:after,
+    .edlio .content input[type=checkbox][disabled].toggle:checked + label:after,
+    .edlio .content input[type=checkbox] .disabled.toggle:checked + label:after {
+      background: #aaabad;
+      border-color: #aaabad; }
+  .edlio .content uniform-phone-number input[type=radio] + label:before,
+  .edlio .content uniform-email input[type=radio] + label:before,
+  .edlio .content input[type=radio] + label:before {
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 0 2px #555555; }
+  .edlio .content uniform-phone-number input[type=radio]:checked + label:before,
+  .edlio .content uniform-email input[type=radio]:checked + label:before,
+  .edlio .content input[type=radio]:checked + label:before {
+    background: #555555;
+    box-shadow: 0 0 0 2px #555555, inset 0 0 0 3px white; }
+  .edlio .content uniform-phone-number input[type=radio].disabled + label, .edlio .content uniform-phone-number input[type=radio][disabled] + label,
+  .edlio .content uniform-email input[type=radio].disabled + label,
+  .edlio .content uniform-email input[type=radio][disabled] + label,
+  .edlio .content input[type=radio].disabled + label,
+  .edlio .content input[type=radio][disabled] + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=radio].disabled + label:before, .edlio .content uniform-phone-number input[type=radio][disabled] + label:before,
+    .edlio .content uniform-email input[type=radio].disabled + label:before,
+    .edlio .content uniform-email input[type=radio][disabled] + label:before,
+    .edlio .content input[type=radio].disabled + label:before,
+    .edlio .content input[type=radio][disabled] + label:before {
+      cursor: default;
+      background: #f4f4f4;
+      box-shadow: 0 0 0 2px #aaabad; }
+  .edlio .content uniform-phone-number input[type=radio].disabled:checked + label, .edlio .content uniform-phone-number input[type=radio][disabled]:checked + label,
+  .edlio .content uniform-email input[type=radio].disabled:checked + label,
+  .edlio .content uniform-email input[type=radio][disabled]:checked + label,
+  .edlio .content input[type=radio].disabled:checked + label,
+  .edlio .content input[type=radio][disabled]:checked + label {
+    cursor: default; }
+    .edlio .content uniform-phone-number input[type=radio].disabled:checked + label:before, .edlio .content uniform-phone-number input[type=radio][disabled]:checked + label:before,
+    .edlio .content uniform-email input[type=radio].disabled:checked + label:before,
+    .edlio .content uniform-email input[type=radio][disabled]:checked + label:before,
+    .edlio .content input[type=radio].disabled:checked + label:before,
+    .edlio .content input[type=radio][disabled]:checked + label:before {
+      background: #aaabad;
+      box-shadow: 0 0 0 2px #aaabad, inset 0 0 0 3px #f4f4f4; }
+  .edlio .content uniform-phone-number input[type="file"]:focus, .edlio .content uniform-phone-number input[type="radio"]:focus, .edlio .content uniform-phone-number input[type="checkbox"]:focus,
+  .edlio .content uniform-email input[type="file"]:focus,
+  .edlio .content uniform-email input[type="radio"]:focus,
+  .edlio .content uniform-email input[type="checkbox"]:focus,
+  .edlio .content input[type="file"]:focus,
+  .edlio .content input[type="radio"]:focus,
+  .edlio .content input[type="checkbox"]:focus {
+    outline: thin dotted #d1d2d4;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  .edlio .content uniform-phone-number input[type="checkbox"]:focus + label:before,
+  .edlio .content uniform-email input[type="checkbox"]:focus + label:before,
+  .edlio .content input[type="checkbox"]:focus + label:before {
+    box-shadow: 0 0 0 2px #444444, 0 0 1px 3px #1d9cd3; }
+  .edlio .content uniform-phone-number input[type="checkbox"].toggle:focus + label:before,
+  .edlio .content uniform-email input[type="checkbox"].toggle:focus + label:before,
+  .edlio .content input[type="checkbox"].toggle:focus + label:before {
+    box-shadow: 0 0 0 2px #444444, 0 0 1px 3px #1d9cd3; }
+  .edlio .content uniform-phone-number input[type="radio"]:focus + label:before,
+  .edlio .content uniform-email input[type="radio"]:focus + label:before,
+  .edlio .content input[type="radio"]:focus + label:before {
+    box-shadow: 0 0 0 2px #444444, inset 0 0 0 3px white, 0 0 1px 3px #1d9cd3; }
+  .edlio .content textarea {
+    resize: none;
+    overflow: auto;
+    vertical-align: middle;
+    width: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: #949599;
+    background-color: white;
+    border: 1px solid #767676;
+    outline: none; }
+    .edlio .content textarea::-webkit-input-placeholder {
+      color: #bcbdc1;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+    .edlio .content textarea::-moz-placeholder {
+      color: #bcbdc1;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      opacity: 1; }
+    .edlio .content textarea::-ms-input-placeholder {
+      color: #bcbdc1;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+    .edlio .content textarea::placeholder {
+      color: #bcbdc1;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  .edlio .content .icon.input {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+    .edlio .content .icon.input > input {
+      -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      margin: 0;
+      background-color: white;
+      border: 1px solid #767676; }
+    .edlio .content .icon.input > svg {
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+      fill: #767676;
+      background: #ededed;
+      border: 1px solid #767676; }
+  .edlio .content uniform-phone-number > span,
+  .edlio .content uniform-phone-number .error-message,
+  .edlio .content uniform-email > span,
+  .edlio .content uniform-email .error-message {
+    display: none; }
+  .edlio .content uniform-phone-number.error > span,
+  .edlio .content uniform-phone-number.error .error-message,
+  .edlio .content uniform-email.error > span,
+  .edlio .content uniform-email.error .error-message {
+    color: #df7934;
+    font-weight: 600;
+    display: block;
+    flex: 1 1 100%; }
+  .edlio .content uniform-phone-number.error > input,
+  .edlio .content uniform-phone-number.error .main-input,
+  .edlio .content uniform-email.error > input,
+  .edlio .content uniform-email.error .main-input {
+    border: 1px solid #df7934;
+    background: #fbede4; }
+  .edlio .content .radio-input-icon + .radio-input-icon-label {
+    display: flex;
+    height: 9em;
+    flex-direction: column;
+    width: 125px; }
+    .edlio .content .radio-input-icon + .radio-input-icon-label .radio-input-icon-container {
+      width: 6.5em;
+      height: 6.5em;
+      overflow: hidden;
+      border: 3px solid #cccccc;
+      border-radius: .240625em; }
+    .edlio .content .radio-input-icon + .radio-input-icon-label:before {
+      content: none !important; }
+    .edlio .content .radio-input-icon + .radio-input-icon-label .radio-input-icon-container .radio-input-icon-image {
+      width: 6em;
+      height: 6em;
+      fill: #cccccc;
+      transform: scale(0.8); }
+  .edlio .content .radio-input-icon:checked + .radio-input-icon-label .radio-input-icon-container {
+    border: 3px solid #33a468; }
+  .edlio .content .radio-input-icon:checked + .radio-input-icon-label:after {
+    content: attr(data-selected);
+    color: #33a468;
+    font-weight: bold;
+    margin: 0 auto; }
+  .edlio .content .radio-input-icon:not(:checked):hover + .radio-input-icon-label .radio-input-icon-container {
+    border: 3px solid #1d9cd3; }
+    .edlio .content .radio-input-icon:not(:checked):hover + .radio-input-icon-label .radio-input-icon-container .radio-input-icon-image {
+      fill: #ededed; }
+  .edlio .content .radio-input-icon:not(:checked):hover + .radio-input-icon-label:after {
+    content: attr(data-unselected);
+    color: #1d9cd3;
+    font-weight: bold;
+    margin: 0 auto; }
+  .edlio .content .radio-input-icon:focus + .radio-input-icon-label > .radio-input-icon-container {
+    box-shadow: 0 0 0 1px #ffffff, 0 0 3px 3px #3a97f9; }
+  .edlio .content label {
+    color: #444444; }
+  .edlio .content .login-card {
+    width: 500px;
+    max-width: 500px;
+    padding: 3em;
+    background: white;
+    margin: 0 auto;
+    min-height: 500px;
+    z-index: 2;
+    position: relative;
+    /* Material Card CSS */
+    -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    overflow: hidden; }
+    @media screen and (max-width: 31.9375rem) {
+      .edlio .content .login-card {
+        height: 100vh; } }
+    .edlio .content .login-card uniform-notification .message {
+      font-weight: 600; }
+      .edlio .content .login-card uniform-notification .message .sub {
+        margin: 1em auto;
+        line-height: 1.5em; }
+      .edlio .content .login-card uniform-notification .message .reset-password-help {
+        line-height: 1.5;
+        margin-bottom: 1em;
+        color: black;
+        font-weight: 400; }
+        .edlio .content .login-card uniform-notification .message .reset-password-help a,
+        .edlio .content .login-card uniform-notification .message .reset-password-help div.bold {
+          font-weight: 600; }
+    .edlio .content .login-card uniform-notification + p {
+      text-align: center; }
+    .edlio .content .login-card .help-message {
+      text-align: center; }
+    .edlio .content .login-card .forgot-password {
+      display: none; }
+    .edlio .content .login-card header {
+      margin-bottom: 1.5em; }
+      .edlio .content .login-card header .school-logo {
+        width: 100%; }
+      .edlio .content .login-card header .school-title {
+        width: 100%;
+        color: #444444;
+        text-align: center;
+        margin: 0.5em auto 1.5em;
+        line-height: 1.25em; }
+      @media screen and (max-width: 31.9375rem) {
+        .edlio .content .login-card header .school-title {
+          line-height: 24px; } }
+    .edlio .content .login-card .spike-message {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1em; }
+      .edlio .content .login-card .spike-message .logo {
+        margin-right: 1.382em;
+        padding: 0 .382em;
+        background: #cb1a10;
+        border-radius: 0.24063em; }
+      .edlio .content .login-card .spike-message svg {
+        height: 3em;
+        width: 3em;
+        fill: white; }
+      .edlio .content .login-card .spike-message span {
+        font-size: 1.75rem;
+        line-height: 1.125em;
+        color: #cb1a10;
+        left: .382rem; }
+    .edlio .content .login-card .card-body .multifactor-form {
+      margin-bottom: 1.5em; }
+    .edlio .content .login-card .card-body input::-webkit-outer-spin-button,
+    .edlio .content .login-card .card-body input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0;
+      /* <-- Apparently some margin are still there even though it's hidden */ }
+    .edlio .content .login-card .card-body input[type="number"] {
+      -moz-appearance: textfield;
+      /* Firefox */ }
+    .edlio .content .login-card .card-body input[type="number"],
+    .edlio .content .login-card .card-body input[type="text"],
+    .edlio .content .login-card .card-body input[type="password"] {
+      width: 100%; }
+    .edlio .content .login-card .card-body #username:focus, .edlio .content .login-card .card-body #password:focus, .edlio .content .login-card .card-body #twoFactorCode:focus {
+      box-shadow: 0 0 1px 2px #1d9cd3; }
+    .edlio .content .login-card .card-body #twoFactorCode {
+      margin-bottom: 0; }
+    .edlio .content .login-card .card-body #username {
+      margin-bottom: 1em; }
+    .edlio .content .login-card .card-body #password,
+    .edlio .content .login-card .card-body #password1 {
+      margin: 0;
+      padding-right: 3em; }
+    .edlio .content .login-card .card-body .login-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1em 0; }
+    .edlio .content .login-card .card-body .g-recaptcha {
+      display: flex;
+      justify-content: center;
+      margin: 2em 0; }
+    .edlio .content .login-card .card-body .recaptcha-invisible {
+      display: none; }
+    .edlio .content .login-card .card-body .submit.button {
+      background: #1d9cd3;
+      color: white;
+      width: 100%;
+      text-align: center;
+      box-shadow: none;
+      border-radius: 0.24063em;
+      font-size: 1.3em; }
+      .edlio .content .login-card .card-body .submit.button.disabled {
+        pointer-events: none;
+        background: rgba(29, 156, 211, 0.5); }
+      .edlio .content .login-card .card-body .submit.button:focus {
+        box-shadow: 0 0 0 2px #ffffff, 0 0 3px 5px #3a97f9; }
+    .edlio .content .login-card .card-body .descriptive-label {
+      font-size: 14px;
+      margin-bottom: 2em; }
+    .edlio .content .login-card .card-body .text {
+      font-size: 16px;
+      margin-bottom: 4em; }
+    .edlio .content .login-card .error-text {
+      color: #df7934;
+      font-weight: 600;
+      display: none; }
+      .edlio .content .login-card .error-text.show {
+        display: block; }
+    .edlio .content .login-card .forgot-password header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      font-size: 2em;
+      margin-bottom: 1em; }
+      .edlio .content .login-card .forgot-password header a {
+        font-size: .55em;
+        flex: 1 0 100%; }
+      .edlio .content .login-card .forgot-password header span {
+        margin-top: 15px;
+        flex: 1 0 100%; }
+    .edlio .content .login-card .forgot-password .forgot-pwd-hint {
+      margin-bottom: 1em; }
+    .edlio .content .login-card .invalid-login edlio-notification .message {
+      line-height: 1.2;
+      padding: 0.75rem;
+      font-weight: 600 !important; }
+      .edlio .content .login-card .invalid-login edlio-notification .message .reset-password-help {
+        margin-top: 1em;
+        color: black;
+        font-weight: 400; }
+        .edlio .content .login-card .invalid-login edlio-notification .message .reset-password-help a,
+        .edlio .content .login-card .invalid-login edlio-notification .message .reset-password-help div.bold {
+          font-weight: 600; }
+    .edlio .content .login-card .invalid-login edlio-notification + p {
+      text-align: center; }
+    .edlio .content .login-card .sso-sign-in.hide {
+      display: none; }
+    .edlio .content .login-card .sso-sign-in > div {
+      text-align: center; }
+    .edlio .content .login-card .sso-sign-in .sso-implement {
+      margin-top: 4em; }
+    .edlio .content .login-card .sso-sign-in .sso-button {
+      display: block;
+      text-align: center;
+      display: inline-flex;
+      padding: 0 1em;
+      border-radius: .236em;
+      line-height: 2.618em;
+      height: 2.618em;
+      /* IE10/11 */
+      color: #fff;
+      text-decoration: none; }
+      .edlio .content .login-card .sso-sign-in .sso-button img {
+        height: 3.5em; }
+      .edlio .content .login-card .sso-sign-in .sso-button svg {
+        width: 1.618em;
+        height: auto;
+        margin-right: .618em;
+        fill: #fff;
+        vertical-align: top;
+        /* IE10 */ }
+      .edlio .content .login-card .sso-sign-in .sso-button.office-365 {
+        background: #125acd; }
+        .edlio .content .login-card .sso-sign-in .sso-button.office-365:hover {
+          background: #196CF1; }
+        .edlio .content .login-card .sso-sign-in .sso-button.office-365:active {
+          background: #194FA6; }
+      .edlio .content .login-card .sso-sign-in .sso-button.canvas {
+        background: #D64027; }
+        .edlio .content .login-card .sso-sign-in .sso-button.canvas:hover {
+          background: #EA472C; }
+        .edlio .content .login-card .sso-sign-in .sso-button.canvas:active {
+          background: #C13B24; }
+    .edlio .content .login-card .sso-sign-in .regular-sign-in {
+      display: block;
+      text-align: center;
+      margin-top: 2em; }
+    .edlio .content .login-card .sso-super-admin-login {
+      display: none; }
+      .edlio .content .login-card .sso-super-admin-login.override-sso {
+        display: block; }
+        .edlio .content .login-card .sso-super-admin-login.override-sso header {
+          margin-top: 1em; }
+    .edlio .content .login-card .retry {
+      display: block;
+      width: 100%;
+      text-align: center; }
+    .edlio .content .login-card #foot_poweredby {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto; }
+      .edlio .content .login-card #foot_poweredby svg {
+        width: 140px;
+        height: 16px;
+        fill: #535D67; }
+    .edlio .content .login-card .privacy_policy {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em; }
+      .edlio .content .login-card .privacy_policy a {
+        color: #1D9CD3 !important;
+        font-family: 'Open Sans' !important;
+        text-decoration: underline !important;
+        font-size: 15px; }
+    .edlio .content .login-card .reset-form .header {
+      font-size: 2em; }
+    .edlio .content .login-card .reset-form p {
+      margin: 1em 0; }
+    .edlio .content .login-card .reset-form #password1 {
+      margin: 0; }
+    .edlio .content .login-card .reset-form label[for="password2"] {
+      margin-top: 1em; }
+    .edlio .content .login-card .reset-form .password-validation {
+      margin: 1em 0; }
+      .edlio .content .login-card .reset-form .password-validation .character-length svg,
+      .edlio .content .login-card .reset-form .password-validation .string-matching svg,
+      .edlio .content .login-card .reset-form .password-validation .not-common-used-matching svg,
+      .edlio .content .login-card .reset-form .password-validation .uppercase-matching svg,
+      .edlio .content .login-card .reset-form .password-validation .number-matching svg,
+      .edlio .content .login-card .reset-form .password-validation .symbol-matching svg {
+        margin-right: 1em; }
+        .edlio .content .login-card .reset-form .password-validation .character-length svg.fail,
+        .edlio .content .login-card .reset-form .password-validation .string-matching svg.fail,
+        .edlio .content .login-card .reset-form .password-validation .not-common-used-matching svg.fail,
+        .edlio .content .login-card .reset-form .password-validation .uppercase-matching svg.fail,
+        .edlio .content .login-card .reset-form .password-validation .number-matching svg.fail,
+        .edlio .content .login-card .reset-form .password-validation .symbol-matching svg.fail {
+          display: inline; }
+        .edlio .content .login-card .reset-form .password-validation .character-length svg.pass,
+        .edlio .content .login-card .reset-form .password-validation .string-matching svg.pass,
+        .edlio .content .login-card .reset-form .password-validation .not-common-used-matching svg.pass,
+        .edlio .content .login-card .reset-form .password-validation .uppercase-matching svg.pass,
+        .edlio .content .login-card .reset-form .password-validation .number-matching svg.pass,
+        .edlio .content .login-card .reset-form .password-validation .symbol-matching svg.pass {
+          display: none; }
+      .edlio .content .login-card .reset-form .password-validation .character-length.pass,
+      .edlio .content .login-card .reset-form .password-validation .string-matching.pass,
+      .edlio .content .login-card .reset-form .password-validation .not-common-used-matching.pass,
+      .edlio .content .login-card .reset-form .password-validation .uppercase-matching.pass,
+      .edlio .content .login-card .reset-form .password-validation .number-matching.pass,
+      .edlio .content .login-card .reset-form .password-validation .symbol-matching.pass {
+        color: #33a468; }
+        .edlio .content .login-card .reset-form .password-validation .character-length.pass svg,
+        .edlio .content .login-card .reset-form .password-validation .string-matching.pass svg,
+        .edlio .content .login-card .reset-form .password-validation .not-common-used-matching.pass svg,
+        .edlio .content .login-card .reset-form .password-validation .uppercase-matching.pass svg,
+        .edlio .content .login-card .reset-form .password-validation .number-matching.pass svg,
+        .edlio .content .login-card .reset-form .password-validation .symbol-matching.pass svg {
+          fill: #33a468; }
+          .edlio .content .login-card .reset-form .password-validation .character-length.pass svg.fail,
+          .edlio .content .login-card .reset-form .password-validation .string-matching.pass svg.fail,
+          .edlio .content .login-card .reset-form .password-validation .not-common-used-matching.pass svg.fail,
+          .edlio .content .login-card .reset-form .password-validation .uppercase-matching.pass svg.fail,
+          .edlio .content .login-card .reset-form .password-validation .number-matching.pass svg.fail,
+          .edlio .content .login-card .reset-form .password-validation .symbol-matching.pass svg.fail {
+            display: none; }
+          .edlio .content .login-card .reset-form .password-validation .character-length.pass svg.pass,
+          .edlio .content .login-card .reset-form .password-validation .string-matching.pass svg.pass,
+          .edlio .content .login-card .reset-form .password-validation .not-common-used-matching.pass svg.pass,
+          .edlio .content .login-card .reset-form .password-validation .uppercase-matching.pass svg.pass,
+          .edlio .content .login-card .reset-form .password-validation .number-matching.pass svg.pass,
+          .edlio .content .login-card .reset-form .password-validation .symbol-matching.pass svg.pass {
+            display: inline; }
+      .edlio .content .login-card .reset-form .password-validation .character-length {
+        margin-bottom: .25em; }
+    .edlio .content .login-card .password-holder {
+      position: relative; }
+      .edlio .content .login-card .password-holder .password-show-option {
+        position: absolute;
+        right: .5em;
+        bottom: .75em; }
+        .edlio .content .login-card .password-holder .password-show-option label:before,
+        .edlio .content .login-card .password-holder .password-show-option label:after {
+          display: none; }
+      .edlio .content .login-card .password-holder .password-show-option:focus-within {
+        outline: -webkit-focus-ring-color auto 1px; }
+    .edlio .content .login-card .support {
+      text-align: center; }
+    .edlio .content .login-card .submit-invisible {
+      margin-bottom: 0; }
+    .edlio .content .login-card .recaptcha-branding {
+      text-align: right;
+      margin: 0 0 1em 0;
+      font-size: x-small; }
+      .edlio .content .login-card .recaptcha-branding a {
+        color: #444444; }
+  .edlio .content .edlio-watermark-svg {
+    fill: #EBEBEB;
+    position: absolute;
+    bottom: -0.5em;
+    left: 0%;
+    width: 22em;
+    height: 19em; }
+    @media screen and (min-width: 64rem) {
+      .edlio .content .edlio-watermark-svg {
+        left: calc(50% - 37em);
+        width: 28em; } }
+
+.edlio .spin {
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.grecaptcha-badge {
+  visibility: hidden; }
+
+/*# sourceMappingURL=../../../maps/features/login/css/login-pack.css.map */
